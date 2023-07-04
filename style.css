@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+    
+
+    font-family: 'Ruda', sans-serif;
+
+    font-weight: 400;
+    color: white;
+}
+body
+{
+    text-rendering: optimizeLegibility;
+    
+}
+
+.navbar {
+    padding: 0px;
+    background-color: #000000;
+}
+
+.icon-list {
+    width: 100%;
+
+}
+.hero
+{
+    background: url(pizza1\ 1.png);
+    background-size: cover;
+    background-position: center;
+    
+    
+    height: 600px;
+}
+.hero-container
+{
+   
+    height: 600px;
+    padding-top: 4vw;
+    padding-left: 8vw;
+
+    
+   
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,.9));
+    
+    
+    
+}
+.cheesy-text
+{
+    background: none;
+    color: white;
+    font-family: 'Quattrocento', serif;
+    font-weight: 700;
+    font-size: 60px;
+   
+    
+}
+
+
+
+
+.hero-text
+{
+    width: 300px;
+    text-align: justify;
+    font-family: 'Ruda', sans-serif;
+    border-top: 13px solid #F24C4C;
+
+}
+.about-us 
+{
+    margin: 0 100px;
+    
+}
+
+.about-us-title
+{
+    border-bottom: 9px solid #F24C4C;
+    margin: auto;
+    justify-content: center;
+    width: fit-content;
+    font-family: 'Quattrocento', serif;
+    font-weight:400;
+    
+    padding: 0px 50px;
+    
+}
+.about-container
+{
+    display: flex;
+    padding-top: 20px;
+    
+    
+}
+.about-us-text
+{
+   width: fit-content;
+   align-items: center;
+   align-content: center;
+    
+    
+}
+.about-text
+{
+    margin: auto;
+    width: 90%;
+    
+}
+.about-image
+{
+    
+}
+.about-img 
+{
+    width: 35vw;
+}
+.menu-container
+{
+    margin: 20px 150px;
+    
+    
+}
+.menu-text-box
+{
+    margin-top: 20px;
+}
+.card-img
+{
+    height: 100%;
+}
+.card-title
+{
+    color: yellow;
+}
+.card-text
+{
+    font-size: medium;
+    width: 100%;
+    text-align: left;
+}
+
+.carousel {
+    height: 400px; /* Adjust the desired height here */
+    overflow: hidden;
+  }
+
+  .carousel-inner .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .gallery {
+    text-align: center;
+  }
+ .first
+ {
+    display: grid;
+    
+ }
+  .grid-container
+  {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    
+  }
+ 
+  
+  .gallery-image {
+   object-fit: cover;
+  }
+  .find-container
+  {
+    display: flex;
+    margin: 0px 20px;
+  }
+  .map
+  {
+    object-fit: cover;
+    height: 100%;
+  }
+  .find-left
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .span-text
+  {
+    font-size: small;
+  }
+  .comp
+  {
+    flex: 1;
+    margin-right: 10px;
+  }
+  .info-table {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .cell {
+    flex-basis: 50%;
+    text-align: center;
+  }
+  
+  .cell img {
+    
+    max-width: 5vw;
+  }
+  .phone-image
+  {
+    width: 2vw;
+    margin: auto;
+  }
+footer
+{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-contact
+{
+    display: flex;
+    flex-direction: column;
+}
+.mail-data
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.mail-icon
+{
+    width: 5vw;
+}
+.mail-text
+{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+}
+
+@media(max-width:768px)  {
+    body
+    {
+        font-size: small;
+
+    }
+    .cheesy-text
+    {
+        font-size: 30px;
+    }
+    .about-us-text
+    {
+        font-size: 25px;
+    }
+    .about-text
+    {
+        font-size: 10px;
+    }
+    
+}
