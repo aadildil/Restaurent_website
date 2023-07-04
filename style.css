@@ -1,19 +1,19 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    
 
-    
+
+
 
     font-family: 'Ruda', sans-serif;
 
     font-weight: 400;
     color: white;
 }
-body
-{
+
+body {
     text-rendering: optimizeLegibility;
-    
+
 }
 
 .navbar {
@@ -25,246 +25,353 @@ body
     width: 100%;
 
 }
-.hero
-{
+
+.hero {
     background: url(pizza1\ 1.png);
     background-size: cover;
     background-position: center;
-    
-    
+
+
     height: 600px;
 }
-.hero-container
-{
-   
+
+.hero-container {
+
     height: 600px;
     padding-top: 4vw;
     padding-left: 8vw;
 
-    
-   
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,.9));
-    
-    
-    
+
+
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, .9));
+
+
+
 }
-.cheesy-text
-{
+
+.cheesy-text {
     background: none;
     color: white;
     font-family: 'Quattrocento', serif;
     font-weight: 700;
     font-size: 60px;
-   
-    
+
+
 }
 
 
 
 
-.hero-text
-{
+.hero-text {
     width: 300px;
     text-align: justify;
     font-family: 'Ruda', sans-serif;
     border-top: 13px solid #F24C4C;
 
 }
-.about-us 
-{
+
+.about-us {
     margin: 0 100px;
-    
+
 }
 
-.about-us-title
-{
+.about-us-title {
     border-bottom: 9px solid #F24C4C;
     margin: auto;
     justify-content: center;
     width: fit-content;
     font-family: 'Quattrocento', serif;
-    font-weight:400;
-    
+    font-weight: 400;
+
     padding: 0px 50px;
-    
+
 }
-.about-container
-{
+
+.about-container {
     display: flex;
     padding-top: 20px;
-    
-    
+
+
 }
-.about-us-text
-{
-   width: fit-content;
-   align-items: center;
-   align-content: center;
-    
-    
+
+.about-us-text {
+    width: fit-content;
+    align-items: center;
+    text-align: justify;
+
+
 }
-.about-text
-{
+
+.about-text {
     margin: auto;
-    width: 90%;
+    font-size: 15px;
     
+
+
 }
-.about-image
-{
-    
-}
-.about-img 
-{
+
+.about-image {}
+
+.about-img {
     width: 35vw;
 }
-.menu-container
-{
+
+.menu-container {
     margin: 20px 150px;
-    
-    
+
+
 }
-.menu-text-box
-{
+
+.menu-text-box {
     margin-top: 20px;
+    font-size: 20px;
 }
-.card-img
-{
+
+.card-img {
     height: 100%;
 }
-.card-title
-{
+
+.card-title {
     color: yellow;
 }
-.card-text
-{
+
+.card-text {
     font-size: medium;
     width: 100%;
     text-align: left;
 }
 
 .carousel {
-    height: 400px; /* Adjust the desired height here */
+    height: 400px;
+    /* Adjust the desired height here */
     overflow: hidden;
-  }
+}
 
-  .carousel-inner .carousel-item img {
+.carousel-inner .carousel-item img {
     height: 100%;
     object-fit: cover;
-  }
-  
-  .gallery {
+}
+
+.gallery {
     text-align: center;
-  }
- .first
- {
+}
+
+.first {
     display: grid;
-    
- }
-  .grid-container
-  {
+
+}
+
+.grid-container {
     display: grid;
     grid-template-columns: 3fr 1fr 1fr;
-    
-  }
- 
-  
-  .gallery-image {
-   object-fit: cover;
-  }
-  .find-container
-  {
+
+}
+
+
+.gallery-image {
+    object-fit: cover;
+}
+
+.find-container {
     display: flex;
     margin: 0px 20px;
-  }
-  .map
-  {
+}
+
+.map {
     object-fit: cover;
     height: 100%;
-  }
-  .find-left
-  {
+}
+
+.find-left {
     display: flex;
     flex-direction: column;
-  }
-  .span-text
-  {
+}
+
+.span-text {
     font-size: small;
-  }
-  .comp
-  {
+}
+
+.comp {
     flex: 1;
     margin-right: 10px;
-  }
-  .info-table {
+}
+
+.info-table {
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  .row {
+}
+
+.row {
     display: flex;
     width: 100%;
     margin-bottom: 5px;
-  }
-  
-  .cell {
+}
+
+.cell {
     flex-basis: 50%;
     text-align: center;
-  }
-  
-  .cell img {
-    
+}
+
+.cell img {
+
     max-width: 5vw;
-  }
-  .phone-image
-  {
+}
+
+.phone-image {
     width: 2vw;
     margin: auto;
-  }
-footer
-{
+}
+
+footer {
     display: flex;
     justify-content: space-between;
 }
-.footer-contact
-{
+
+.footer-contact {
     display: flex;
     flex-direction: column;
 }
-.mail-data
-{
+
+.mail-data {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    
+
 }
-.mail-icon
-{
+
+.mail-icon {
     width: 5vw;
 }
-.mail-text
-{
+
+.mail-text {
     color: white;
     font-size: small;
     text-decoration: none;
 }
 
-@media(max-width:768px)  {
-    body
-    {
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    border: none;
+}
+
+.grid-container div {
+    border: 1px solid black;
+
+}
+
+.grid-container div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+}
+
+
+.about-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-us-text {
+    flex: 1;
+    padding: 10px;
+    text-align: start;
+  }
+  
+  .about-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .about-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about-text {
+    font-size: 18px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .menu-text-box {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .menu-text {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu-text {
+      font-size: 16px;
+      padding: 10px;
+    }
+}
+
+  @media  (max-width: 768px) {
+    .about-us-text, .about-image {
+      flex: 100%;
+    }
+    
+    .about-container {
+      padding: 10px;
+    }
+    
+    .about-text {
+      font-size: 16px;
+    }
+  }
+
+ 
+
+
+@media(max-width:768px) {
+    body {
         font-size: small;
 
     }
-    .cheesy-text
-    {
+
+    .cheesy-text {
         font-size: 30px;
     }
-    .about-us-text
-    {
-        font-size: 25px;
+
+    .about-us-text {
+        font-size: 15px;
     }
-    .about-text
-    {
+
+    .about-text {
         font-size: 10px;
     }
+
+    .nav-link {
+        font-size: small;
+    }
+    .about-us-title
+    {
+        font-size: medium;
+    }
+    .menu-text-box
+    {
+        font-size: small;
+    }
+    .card-text
+    {
+        font-size: small;
+    }
+    .card-title
+    {
+        font-size: medium;
+    }
     
+
 }
